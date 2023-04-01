@@ -7,3 +7,5 @@ test('Hello is rendered', () => {
 
     expect(screen.getByText('Hello world')).toBeInTheDocument();
 })
+
+screen.getByTitle
